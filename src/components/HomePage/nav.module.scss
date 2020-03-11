@@ -1,0 +1,25 @@
+li {
+  list-style-type: none;
+
+  a {
+    // background-color: red;
+    display: block;
+    text-align: center;
+    // padding-left: 5vw;
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.125);
+      border-radius: 10px;
+    }
+    &:focus-within {
+      background-color: rgba(0, 0, 0, 0.125);
+      border-radius: 10px;
+    }
+  }
+}
+
+.list {
+  line-height: 60px;
+  // list-style: none;
+  padding: 0;
+  // display: inline-block;
+}

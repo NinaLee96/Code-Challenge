@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+}
+.divContainer {
+  display: flex;
+  margin-top: 2vh;
+}
+.formContainer {
+  // width: 30vw;
+  display: flex;
+  align-items: center;
+  flex-basis: auto;
+  flex-direction: column;
+  margin-top: 15vh;
+}

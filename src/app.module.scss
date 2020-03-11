@@ -1,0 +1,42 @@
+.container {
+  display: grid;
+  grid-template-columns: 0.3fr 1fr 0.3fr;
+  grid-template-rows: auto;
+  grid-template-areas: "navigate inbox userInfo";
+  height: 100vh;
+  position: relative;
+
+  .navigate {
+    grid-area: navigate;
+  }
+  .inbox {
+    grid-area: inbox;
+    position: absolute;
+    min-height: 90vh;
+
+    width: 100%;
+    box-shadow: 0px 6px 20px -5px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 40px;
+    background-color: rgb(209, 231, 245);
+    z-index: 5;
+  }
+  .userInfo {
+    grid-area: userInfo;
+    display: flex;
+    justify-content: center;
+  }
+  // .color {
+  //   display: block;
+  //   position: absolute;
+  //   height: 200%;
+  //   width: 200%;
+  //   grid-area: color;
+  //   background-color: #0069d9;
+  //   z-index: 3;
+  //   // opacity: 0.5;
+  //   transform: rotate(90deg);
+  //   top: -130px;
+  //   left: 120px;
+  // }
+}
